@@ -514,11 +514,6 @@ p,ul li{
 
 @media (max-width:1150px){
 
-
-    .main{
-        width: 100vw;
-    }
-
     .home-container{
         padding: 40px 0 40px;
     }
