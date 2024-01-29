@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My Page</title>
+    <script src="https://kit.fontawesome.com/17bff571fd.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        emailjs.init('w88JNMTMZoxvMCwHw')
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <h1>Portfolio</h1>
+            <i class="toggle-open fas fa-bars" id="open"></i>
+            <div class="nav-list" id="nav-list">
+                <i class="toggle-close fas fa-arrow-right" id="close"></i>
+                <ul>
+                    <a href="#home"><li><i class="fas fa-home"></i>Home</li></a>
+                    <a href="#about"><li><i class="fas fa-user"></i>About Me</li></a>
+                    <a href="#portfolio"><li><i class="fas fa-folder"></i>Portfolio</li></a>
+                    <a href="#contact"><li><i class="fas fa-comments"></i>Contact</li></a>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="main">
+            <div id="home" class="home">
+                <div class="home-container">
+                    <div class="home-info">
+                        <h1>Hello my name is Juan Ignacio Errecart, <span>I'm Web Developer</span></h1>
+                    </div>
+                    <div class="home-image display">
+                        <img src="./img/home/home.png" alt="Photo of myself">
+                        <div class="home-image-look">
+                            <p>This alone doesn't help, keep scrolling if you discover more...</p>
+                            <i class="fas fa-arrow-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about" id="about">
+                <h2>About</h2>
+                <div class="about-container">
+                    <div class="about-me">
+                        <h3>Personal-Info</h3>
+                        <p>I am a University Programming student who recently graduated from the Coderhouse Institute and wants to develop my skills as a Frontend-React developer. Without much experience so far but I include my own projects and looking to increase my experience and contribute in the field as a developer.</p>
+                    </div>
+                    <div class="data">
+                        <div class="education">
+                            <h3>Education</h3>
+                            <div class="education-container">
+                                <div class="education-item education-item1">
+                                    <h5>Web Development</h5>
+                                    <p>Includes basic/advanced knowledge of HTML and CSS. Also the use of SASS and basic knowledge of SEO.</p>
+                                    <a href="./img//certificate//certificado-desarrolloweb.png" target="_blanck">Click here (certificate)</a>
+                                </div>
+                                <div class="education-item education-item2">
+                                    <h5>JavaScript</h5>
+                                    <p>includes basic knowledge of JavaScript, arrays basic knowledge, use of promises, async promises and API</p>
+                                    <a href="./img/certificate/certificado-JavaScript.png" target="_blanck">Click here (certificate)</a>
+                                </div>
+                                <div class="education-item education-item3">
+                                    <h5>React</h5>
+                                    <p>Basic knowledge of React, including all info about components, context and the use of this ones.</p>
+                                    <a href="./img/certificate/certificado-ReactJs.png" target="_blanck">Click here (certificate)</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="knowledge">
+                            <h3>Knowledge</h3>
+                            <div class="knowledge-container">
+                                <div class="skills" style="background-color:rgb(255, 140, 0);">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skills" style="background-color:rgb(0, 145, 255);">
+                                    <i class="fab fa-css3"></i>
+                                </div>
+                                <div class="skills" style="background-color:rgb(242, 255, 0);">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <div class="skills" style="background-color:rgb(255, 0, 195);">
+                                    <i class="fab fa-sass"></i>
+                                </div>
+                                <div class="skills" style="background-color:rgb(9, 56, 246);">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="skills" style="background-color:rgb(122, 1, 110);">
+                                    <i class="fab fa-bootstrap"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio" class="portfolio">
+                <h2>Portfolio</h2>
+                <div class="portfolio-container">
+                    <div class="portfolio-title">
+                        <h5>What I’ve been working on lately.</h5>
+                        <p>My latest own projects</p>
+                    </div>
+                    <div class="portfolio-img">
+                        <div class="port-info">
+                            <a href="https://errecart.github.io/ImagineDragons-myProject/" target="_blanck"><img class="img" src="./img/portfolio/imagine dragons.jpeg" alt="First project of mine, Imagine dargons fans web" ></a>
+                            <p>Languages: HTML, CSS, JAVASCRIPT</p>
+                        </div>
+                        <div class="port-info">
+                            <a href="https://errecart.github.io/Game-myProject/" target="_blanck"><img class="img" src="./img/portfolio/game.png" alt="Second Project, a game page"></a>
+                            <p>Languages: HTML, CSS, JAVASCRIPT</p>
+                        </div>
+                        <div class="port-info">
+                            <a href="https://errecart.github.io/ecommerce--project/build" target="_blanck"><img class="img" src="./img/portfolio/react.jpg" alt="Third Project, e-commerce of clothes"></a>
+                            <p>Languages/Frameworks: HTML, CSS/SCSS, JAVASCRIPT, REACT</p>
+
+                        </div>
+                        <div></div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="contact">
+                <h2>Contact</h2>
+                <div class="contact-container">
+                    <div class="contact-title">
+                        <h5>Do you have any Questions?</h5>
+                        <p>you can contact me by</p>
+                    </div>
+                    <div class="contact-options">
+                        <div class="contacts-option-items">
+                            <i class="fab fa-github"></i>
+                            <h4>Github</h4>
+                            <p><a href="https://github.com/errecart" target="_blanck">errecart</a></p>
+                        </div>
+                        <div class="contacts-option-items">
+                            <i class="fab fa-linkedin"></i>
+                            <h4>Linkedin</h4>
+                            <p><a href="https://www.linkedin.com/in/juan-ignacio-errecart-585431283/" target="_blanck">Link-perfil</a></p>
+                        </div>
+                        <div class="contacts-option-items">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Email</h4>
+                            <p>jierrecart5@gmail.com</p>
+                        </div>
+                        <div class="contacts-option-items">
+                            <i class="fas fa-phone"></i>
+                            <h4>Phone</h4>
+                            <p>+54 1122395514</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-title">
+                        <h5>Send me an email</h5>
+                        <p>I'm very responsive to Messages</p>
+                    </div>
+                        <form id="form" class="contact-form">
+                            <label for="from_name">Name</label>
+                            <input type="text" autocomplete="off" name="from_name" id="from_name">
+                            <label for="emial_id">Email</label>
+                            <input type="email" autocomplete="off" name="email_id" id="email_id">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                            <input class="button" id="button" type="submit" value="Send">
+                        </form>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
